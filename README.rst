@@ -12,12 +12,12 @@ Btrfs snapshot backup utility
 Todo
 ===================
 
-[ ] Add FISH support.
-[ ] Add simplifying flags for common use cases.
-[ ] Allow user to disable pv via flag
-[ ] Allow implicit SSH syntax, e.g. `rsync` and `scp`.
-[ ] Rewrite README
-
+* Add a `--server` flag or somesuch, to allow btrfs-sxbackup to handle other end of the pipe, instead of stupidly passing everything in Bash syntax and hoping it works. Bash shouldn't have to be the default terminal for this program to work.
+* Add simplifying flags for common retention use cases. e.g. something like `1d:24/d, 1w:daily, 1m:weekly, 3m:none`
+* Allow user to disable `pv` via flag
+* Allow implicit SSH path syntax, e.g. `rsync` and `scp`.
+* Replace RST files with MD?
+* Rewrite `README.rst`
 
 System dependencies
 ===================
