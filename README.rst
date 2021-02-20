@@ -9,6 +9,16 @@ Btrfs snapshot backup utility
 * Compression of transferred data
 * Syslog logging
 
+Todo
+===================
+
+[ ] Add FISH support.
+[ ] Add simplifying flags for common use cases.
+[ ] Allow user to disable pv via flag
+[ ] Allow implicit SSH syntax, e.g. `rsync` and `scp`.
+[ ] Rewrite README
+
+
 System dependencies
 ===================
 
@@ -280,4 +290,3 @@ transfer
       -h, --help            show this help message and exit
       -c, --compress        enables compression during transmission. Requires lzop
                             to be installed on both source and destination
-
